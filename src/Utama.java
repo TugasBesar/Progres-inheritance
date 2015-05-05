@@ -66,14 +66,13 @@ public class Utama extends IdentitasKelas {
     void inputawal(){
         Scanner in=new Scanner(System.in);
         System.out.println("Masukkan nama ruang anda : ");
-        setNamaRuang(in.nextLine());
+        super.setNamaRuang(in.nextLine());
         System.out.println("Masukkan lokasi ruangan anda : ");
-        setLokasiRuang(in.nextInt());
+        super.setLokasiRuang(in.nextInt());
         System.out.println("Pilih program jurusan anda : ");
         setProdi(in.next());
     }
     void input(){
-     
         Scanner in = new Scanner (System.in);
         System.out.println("Panjang : ");
         setPanjang(in.nextInt());
